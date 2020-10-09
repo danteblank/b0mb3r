@@ -7,12 +7,10 @@ class Zolotoy585(Service):
     async def run(self):
         await self.post(
             "https://www.585zolotoy.ru/api/sms/send_code/",
-            headers = {
+            headers={
                 "client-type": "WEB",
                 "company": "3e6efe10-defd-4983-94a1-c5a4d3cb3689",
                 "region": "75c221cc-0386-4631-b47c-f8951d820a07",
             },
-            json = {
-                "phone": self.formatted_phone,
-            },
+            json={"phone": self.formatted_phone,},
         )
