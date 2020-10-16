@@ -199,3 +199,4 @@ fabric.properties
 
 # macOS system files
 .DS_Store
+/.idea/

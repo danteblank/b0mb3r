@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h4 align="center">Открытый и бесплатный СМС бомбер</h4>
+<h4 align="center">Форк открытого СМС бомбера от Crinny</h4>
 
 <p align="center">
   <a href="https://github.com/psf/black">
