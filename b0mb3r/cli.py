@@ -16,8 +16,8 @@ from b0mb3r.utils import open_url
 
 @logger.catch
 @click.command()
-@click.option("--ip", default="127.0.0.1")
-@click.option("--port", default=8080)
+@click.option("--ip", default="0.0.0.0")
+@click.option("--port", default=1488)
 @click.option("--only-api", "only_api", is_flag=True, default=False)
 def main(ip: str, port: int, only_api: bool = False):
     if sys.platform == "win32":
